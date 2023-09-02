@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <title>Snüggers</title>
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+      <script src="https://assets.codepen.io/16327/MorphSVGPlugin3.min.js"></script>
+      <script src="https://unpkg.com/gsap@3/dist/MotionPathPlugin.min.js"></script>
+      <script src="https://assets.codepen.io/16327/DrawSVGPlugin3.min.js"></script>
+   </head>
+   <body>
+      <div class="header_section">
+         <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <a class="navbar-brand"href="index.html">
+                  <img src="images1/logo.png">
+               </a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="Pagina-de-Erro/index.html">Sobre</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="chatbot/index.html">ChatBot</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="latinhas-paint/index.html">Concurso</a>
+                     </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                     <div class="login_bt"> 
+                        <ul>
+                           <li><a href="login.html"><span class="user_icon"><i class="fa fa-user" aria-hidden="true"></i></span>Login</a></li>
+                           <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                        </ul>
+                     </div>
+                  </form>
+               </div>
+            </nav>
+         </div>
+         <!-- Banner da Sessão Inicial --> 
+         <div class="banner_section layout_padding">
+            <div class="container-fluid">
+               <div id="banner_slider" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <div class="banner_taital_main">
+                                 <h1 class="banner_taital">Maracutaia</h1>
+                                 <p class="banner_text"> Inspirado pelas tradições mexicanas e com um mix de frutas<br> com manga. Além de sabor também entrega energia!</p>
+                                 <div class="readmore_btn active"><a href="#">Leia Mais</a></div>
+                                 <div class="started_bt"><a href="produto.html">Peça já o seu!</a></div>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="banner_img"><img src="images/latinhas/Maracutaia.png"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <div class="banner_taital_main">
+                                 <h1 class="banner_taital">Makako Loko</h1>
+                                 <p class="banner_text">Feito diretamente do cérebro de um babuíno em conserva. <br>Além de sabor Te entrega força!</p>
+                                 <div class="readmore_btn active"><a href="#">Leia Mais</a></div>
+                                 <div class="started_bt"><a href="#">Peça já o seu!</a></div>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="banner_img"><img src="images/latinhas/Makako Loko.png"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <div class="banner_taital_main">
+                                 <h1 class="banner_taital">Mimosa</h1>
+                                 <p class="banner_text">Extraído de um delicioso conjunto de mimosa com narguet.<br> Além de sabor Te entrega disposição!</p>
+                                 <div class="readmore_btn active"><a href="#">Leia Mais</a></div>
+                                 <div class="started_bt"><a href="#">Peça já o seu!</a></div>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="banner_img"><img src="images/latinhas/Mimosa.png"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#banner_slider" role="button" data-slide="prev">
+                  <i class="fa fa-arrow-left"></i>
+                  </a>
+                  <a class="carousel-control-next" href="#banner_slider" role="button" data-slide="next">
+                  <i class="fa fa-arrow-right"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <!-- Fim da parte dos Bannes -->
+      </div>
+      <!-- Fim do Cabeçalho-->
+      <!-- Inicio Da parte principal -->
+      <div class="container">
+         <div class="box_section">
+            <div class="online_box">
+               <div class="online_box_left">
+                  <div class="online_box_main">
+                     <div class="box_left">
+                        <div class="right_arrow"><i class="fa fa-arrow-right"></i></div>
+                     </div>
+                     <div class="box_right">
+                        <p class="book_text">Algumas</p>
+                        <h4 class="appoinment_text">Opções</h4>
+                     </div>
+                  </div>
+               </div>
+               <div class="online_box_left ">
+                  <div class="online_box_main">
+                     <div class="box_left">
+                        <div class="right_arrow"><i class="fa fa-arrow-right"></i></div>
+                     </div>
+                     <div class="box_right">
+                        <p class="book_text ">Ganhe na primeira compra</p>
+                        <h4 class="appoinment_text "> 10% OFF </h4>
+                     </div>
+                  </div>
+               </div>
+               <div class="online_box_left">
+                  <div class="online_box_main">
+                     <div class="box_left">
+                        <div class="right_arrow"><i class="fa fa-arrow-right"></i></div>
+                     </div>
+                     <div class="box_right">
+                        <p class="book_text">Peça diretamente</p>
+                        <h4 class="appoinment_text">Da sua residência</h4>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Fim caixa -->
+      <!-- Sessão de Servivos -->
+      <div class="services_section">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h1 class="studies_taital">Valores da empresa</h1>
+               </div>
+            </div>
+         </div>
+         <div class="services_section_2">
+            <div id="main_slider" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="house_icon">
+                                    <img src="images/icon-1.png" class="image_1">
+                                    <img src="images/icon-4.png" class="image_2">
+                                 </div>
+                                 <h3 class="corporate_text">Valores</h3>
+                                 <p class="chunks_text">Nossos valores são a transparência e a inovação. Buscamos ser transparentes em nossas ações, mantendo uma comunicação honesta. Valorizamos a inovação, em busca de soluções criativas para nossos clientes. Além disso, a excelência nos guia, buscando entregar serviços de qualidade. Amamos o esporte e o bem-estar, promovendo um ambiente inclusivo, onde a diversidade é valorizada. Também nos comprometemos com práticas sustentáveis, buscando contribuir positivamente para o meio ambiente. </p>
+                                <!-- <div class="readmore_button"><a href="#">Ler Mais</a></div>-->
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box active">
+                                 <div class="house_icon">
+                                    <img src="images/icon-5.png" class="image_1">
+                                    <img src="images/icon-5.png" class="image_2">
+                                 </div>
+                                 <h3 class="corporate_text">Visão</h3>
+                                 <p class="chunks_text">A visão é ser referência global em alimentos de qualidade, inspirando as pessoas a adotarem um estilo de vida saudável. Além disso, valorizam a responsabilidade social e ambiental, buscando um futuro sustentável onde o esporte e a saúde estejam ao alcance de todos. </p>
+                                 <!-- <div class="readmore_button active"><a href="#">Ler Mais</a></div>-->
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="house_icon">
+                                    <img src="images/icon-3.png" class="image_1">
+                                    <img src="images/icon-6.png" class="image_2">
+                                 </div>
+                                 <h3 class="corporate_text">Missão</h3>
+                                 <p class="chunks_text">A Nossa missão é dedicar-nos a entregar produtos de qualidade excepcional, cuidadosamente desenvolvidos para atender às necessidades de nossos clientes em relação ao desempenho em práticas de exercícios físicos. </p>
+                                 <!--<div class="readmore_button"><a href="#">Ler Mais</a></div>-->
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="carousel-item">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="house_icon">
+                                    <img src="images/icon-1.png" class="image_1">
+                                    <img src="images/icon-4.png" class="image_2">
+                                 </div>
+                                 <h3 class="corporate_text">Valores</h3>
+                                 <p class="chunks_text">Nossos valores são a transparência e a inovação. Buscamos ser transparentes em nossas ações, mantendo uma comunicação honesta. Valorizamos a inovação, em busca de soluções criativas para nossos clientes. Além disso, a excelência nos guia, buscando entregar serviços de qualidade. Amamos o esporte e o bem-estar, promovendo um ambiente inclusivo, onde a diversidade é valorizada. Também nos comprometemos com práticas sustentáveis, buscando contribuir positivamente para o meio ambiente. </p>
+                                 <!-- <div class="readmore_button"><a href="#">Ler Mais</a></div> -->
+                              </div>
+                           </div>
+
+                           <div class="col-md-4">
+                              <div class="service_box active">
+                                 <div class="house_icon">
+                                    <img src="images/icon-5.png" class="image_1">
+                                    <img src="images/icon-5.png" class="image_2">
+                                 </div>
+                                <h3 class="corporate_text">Visão</h3>
+                                 <p class="chunks_text">A visão é ser referência global em alimentos de qualidade, inspirando as pessoas a adotarem um estilo de vida saudável. Além disso, valorizam a responsabilidade social e ambiental, buscando um futuro sustentável onde o esporte e a saúde estejam ao alcance de todos. </p>
+                                 <!--<div class="readmore_button active"><a href="#">Ler Mais</a></div>-->
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="house_icon">
+                                    <img src="images/icon-3.png" class="image_1">
+                                    <img src="images/icon-6.png" class="image_2">
+                                 </div>
+                                 <h3 class="corporate_text">Missão</h3>
+                                 <p class="chunks_text">A Nossa missão é dedicar-nos a entregar produtos de qualidade excepcional, cuidadosamente desenvolvidos para atender às necessidades de nossos clientes em relação ao desempenho em práticas de exercícios físicos. </p>
+                                 <!--<div class="readmore_button"><a href="#">Ler Mais</a></div>-->
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+               <i class="fa fa-arrow-left"></i>
+               </a>
+               <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+               <i class="fa fa-arrow-right"></i>
+               </a>
+            </div>
+         </div>
+      </div>
+      <!-- Fim da parte de serviços -->
+      <!-- Inicio dos casos estudados -->
+      <div class="studies_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h1 class="studies_taital">Patrocínios</h1>
+               </div>
+            </div>
+            <div class="studies_section_2">
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="hover01 column">
+                        <figure><img src="images1/estadio-couto-pereira-inicial.jpg"></figure>
+                     </div>
+                     <div class="studies_box">
+                        <h3 class="introduction_text">Arena Mulambley, ALE</h3>
+                     </div>
+                     <div class="read_bt"><a href="#">Ver Mais</a></div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="hover01 column">
+                        <figure><img src="images/Schalke 04.Png"></figure>
+                     </div>
+                     <div class="studies_box">
+                        <h3 class="introduction_text">Schalke 04</h3>
+                     </div>
+                     <div class="read_bt "><a href="#">Ver Mais</a></div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="hover01 column">
+                        <figure><img src="images/cr7.Jpg"></figure>
+                     </div>
+                     <div class="studies_box">
+                        <h3 class="introduction_text">Cristiano Ronaldo</h3>
+                     </div>
+                     <div class="read_bt"><a href="#">Ver Mais</a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Fim Sessão Casos -->
+      <!-- Sessão Sobre -->
+      <div class="about_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="about_img"><img src="images/about.png"></div>
+               </div>
+               <div class="col-md-6">
+                  <div class="about_text_main">
+                     <h1 class="about_taital">Sobre Nós</h1>
+                     <p class="about_text">Bem vindos! Somos uma empresa de energético e patrocínios dedicada a ser referência quando o assunto e suplementação. Fundada em 1943, nossa sempre foi
+                           em busca de se apeifeiçoar e ser referência global em produtos de qualidade, inspirando e impulsionando a vida de milhares de pessoas.
+                     </p>
+                     <div class="readmore_bt"><a href="#">Ler Mais</a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- fim da sessão sobre-->
+      <!-- Sessão Notícias -->
+      <div class="news_section layout_padding">
+         <div class="container">
+            <h1 class="news_taital">Notícias Recentes</h1>
+            <div class="news_section_2">
+               <div class="news_box">
+                  <div id="custom_slider" class="carousel slide" data-ride="carousel">
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="news_img"><img src="images1/mulambley.png"></div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="news_img"><img src="images1/luciano.webp"></div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="news_img"><img src="images1/horse.jpg"></div>
+                        </div>
+                     </div>
+                     <a class="carousel-control-next" href="#custom_slider" role="button" data-slide="next">
+                     <i class="fa fa-arrow-right"></i>
+                     </a>
+                  </div>
+                  <h2 class="does_taital">Construções da arena mulambley entram na reta final, veja a data de inauguração:</h2>
+                  <div class="read_bt active"><a href="#">Ver Mais</a></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- fim sessão noticias-->
+      <!-- Sessão contato -->
+      <div class="contact_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h1 class="contact_taital">Algum problema? Contate-nos</h1>
+               </div>
+            </div>
+            <div class="contact_section_2">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="mail_section map_form_container">
+                        <form action="">
+                           <input type="text" class="mail_text" placeholder="Nome" name="Name">
+                           <input type="text" class="mail_text" placeholder="Telefone" name="Phone Number"> 
+                           <input type="text" class="mail_text" placeholder="Email" name="Your Email">
+                           <textarea class="massage-bt" placeholder="Mensagem" rows="5" id="comment" name="Massage"></textarea>
+                           <svg viewBox="0 0 1400 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path id="paperPlaneRoute" d="M563.558,526.618 C638.854,410.19 787.84,243.065 916.53,334.949 1041.712,424.328 858.791,877.927 743.926,856.655 642.241,838.669 699.637,688.664 700,540" stroke="white"  stroke-width="3" style="stroke-dashoffset: 0.001px; stroke-dasharray: 0px, 999999px;"/>
+                              <g id="rectSent" clip-path="url(#clipPath)">
+                                <g id="rectSentItems">
+                                  <rect id="sentBase" x="460" y="468.5" width="480" height="143" rx="23" fill="white"/>
+                                  <text id="txtSent" fill="#1f891d" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="70" font-weight="bold" letter-spacing="0.025em"><tspan x="637.487" y="568.027">Enviado!</tspan></text>
+                                </g>
+                              </g>
+                              <g id="base">
+                                <g filter="url(#flShadow)"><rect id="btnBase" x="418.117" y="460.55" width="563.765" height="158.899" rx="27" fill="#F1F3FF" /></g>
+                                  <text id="txtSend" fill="#1f891d" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="82" font-weight="bold" letter-spacing="0.06em"><tspan x="679.379" y="568.027">Enviar</tspan></text>
+                                  <g id="paperPlane" style="transform-origin: 0px 0px 0px;" data-svg-origin="563.55859375 527.734375" transform="matrix(0.8396,0.5432,-0.5432,0.8396,377.09924,-222.6639)">
+                                  <path id="paperPlanePath" d="M560.611 481.384C562.003 479.263 565.113 479.263 566.505 481.384L607.063 543.177C615.657 556.272 607.507 573.375 592.766 575.676L566.422 557.462V510.018C566.422 508.436 565.14 507.154 563.558 507.154C561.976 507.154 560.693 508.436 560.693 510.018V557.462L534.349 575.676C519.609 573.375 511.459 556.272 520.053 543.177L560.611 481.384Z" fill="#1f891d"/>
+                                </g>
+                              </g>
+                              <circle id="cBottom" cx="700" cy="540" r="97.516" fill="#C23F3F"  class="hidden"/>
+                              <circle id="cTop" cx="700" cy="502.365" r="107.898" fill="#C23F3F" class="hidden"/>
+                              <circle id="cCenter" cx="700" cy="540" r="123" fill="#A74C4C" class="hidden" />
+                              <circle id="cEnd" cx="495" cy="540" r="98" fill="#F1F3FF" class="hidden"/>
+                              <path id="tickMark" fill-rule="evenodd" clip-rule="evenodd" d="M597.3 489.026C595.179 487.257 592.026 487.541 590.257 489.662L550.954 536.768L534.647 522.965C532.539 521.181 529.384 521.444 527.6 523.551L519.096 533.598C517.312 535.706 517.575 538.861 519.682 540.645L538.606 556.662C538.893 557.162 539.272 557.621 539.74 558.012L549.847 566.445C551.967 568.214 555.12 567.929 556.889 565.809L608.042 504.501C609.811 502.38 609.527 499.227 607.406 497.458L597.3 489.026Z" fill="#1f891d" class="hidden"/>
+                              <defs>
+                                <clipPath id="clipPath">
+                                  <rect id="mask1" x="700" y="450" width="520" height="180" fill="white" id="clipRect"/>
+                                </clipPath>
+                                <filter id="flShadow" x="0" y="0" width="1000" height="1000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                                  <feOffset dx="4" dy="4"/>
+                                  <feGaussianBlur stdDeviation="3.5"/>
+                                  <feColorMatrix type="matrix" values="0 0 0 0 0.5125 0 0 0 0 0.420677 0 0 0 0 0.420677 0 0 0 0.25 0"/>
+                                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                                </filter>
+                              </defs>
+                              </svg>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- fim sessão contato -->
+      <!-- Rodapét -->
+      <div class="footer_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="footer_logo">
+                  <a href="index.html">
+                     <img src="images1/logo.png">
+               </div>
+               <div class="social_icon">
+               <ul>
+               <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+               </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      
+      <!-- fim rodapé -->
+      <!-- copyright -->
+      <div class="copyright_section">
+         <div class="container">
+            <p class="copyright_text">Snüggers@ 2023 Todos os direitos Reservados.</p>
+         </div>
+      </div>
+      <!-- fim copyright-->
+      <!-- arquivos JS-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script> 
+      <script src='js/main.js'></script>
+   </body>
+</html>
