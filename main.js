@@ -54,7 +54,7 @@ toggleReg.addEventListener("click", function (e) {
 
 // Configurando a partículas
 
-particlesJS("particles-js", {
+/*particlesJS("particles-js", {
   particles: {
     number: {
       value: 100,
@@ -165,6 +165,7 @@ particlesJS("particles-js", {
   retina_detect: true
 });
 
+*/
 
 function loginCheck() {
   var email = document.sign_in_form.email;
